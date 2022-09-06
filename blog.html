@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD POST</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header mb-5">
+        <div class="container">
+            <!-- Header Info -->
+            <div
+                class="header-info d-flex justify-content-between align-items-center py-2 mb-3 border-bottom border-2 border-muted">
+                <a href="#" class="header-brand fs-3 fw-bold"><span>BD</span> POST</a>
+                <ul class="header-top-nav list-unstyled d-flex align-items-center m-0">
+                    <li>
+                        <a class="p-2 mx-2 text-muted" href="./index.html">News</a>
+                    </li>
+                    <li>
+                        <a class="p-2 mx-2 header-link-active" href="#blog.html">Blog</a>
+                    </li>
+                    <li class="px-4 py-2"><img class="header-author" src="img/author.png" alt="Author Image"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <section id="blog">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <!-- Blog Post -->
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="https://i.ytimg.com/vi/9WIJQDvt4Us/maxresdefault.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">What are the differences between var, let and const?
+                                </h5>
+                                <p class="card-text">var variables can be updated and re-declared within its scope; let
+                                    variables can be updated but not re-declared; const variables can neither be updated
+                                    nor re-declared. They are all hoisted to the top of their scope. But while var
+                                    variables are initialized with undefined , let and const variables are not
+                                    initialized.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Post -->
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="https://nimblewebdeveloper.com/static/1b4caf2c8a8c22bb2d9e3ad0215b81df/73c85/fb5168c1778bf2c15fc07c30434547417a6cf59d-1200x630.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">What is the difference between arrow and regular
+                                    function?
+                                </h5>
+                                <p class="card-text">Regular functions created using function declarations or
+                                    expressions are constructible and callable. Since regular functions are
+                                    constructible, they can be called using the new keyword. However, the arrow
+                                    functions are only callable and not constructible, i.e arrow functions can never be
+                                    used as constructor functions</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Post -->
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrUt65-fOSIZRIfisqDfSVVUh8QE2e7jWhYQ&usqp=CAU"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">What is the difference between Map, forEach, filter,
+                                    find method?</h5>
+                                <p class="card-text">The map() method returns a new array by applying the callback
+                                    function on each element of an array, while the forEach() method doesn't return
+                                    anything. On the other hand, The find() method is used to find all the descendant
+                                    elements of the selected element. It finds the element in the DOM tree by traversing
+                                    through the root to leaf. The filter() method is used to filters all the elements
+                                    and returns the element that matches and the element that do not match are removed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Blog Post -->
+                    <div class="col">
+                        <div class="card p-2">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ297YnCZFVUIDbiSyvmAM0dgchSFRX1vkf1A&usqp=CAU"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Why should we use template string?</h5>
+                                <p class="card-text">Template strings are a powerful feature of modern JavaScript
+                                    released in ES6. It lets us insert/interpolate variables and expressions into
+                                    strings without needing to concatenate like in older versions of JavaScript. It
+                                    allows us to create strings that are complex and contain dynamic elements.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="text-muted text-center py-5">
+        <p>Copyright 2022 BD POST</p>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
+     "></script>
+</body>
+
+</html>
